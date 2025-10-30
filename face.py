@@ -5,7 +5,7 @@ import time
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Initialize video capture
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Variables to store previous face center and timestamp
 prev_cx, prev_cy = None, None
